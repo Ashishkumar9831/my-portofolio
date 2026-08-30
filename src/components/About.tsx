@@ -19,12 +19,10 @@ export function About() {
           >
             <div className="absolute inset-0 bg-gradient-to-r from-primary to-purple-500 rounded-3xl transform rotate-3 scale-105 opacity-20 blur-lg dark:opacity-40"></div>
             <div className="relative aspect-[4/5] md:aspect-square lg:aspect-[4/5] rounded-3xl overflow-hidden border border-gray-200 dark:border-white/10 bg-gray-100 dark:bg-white/5 flex items-center justify-center backdrop-blur-sm">
-                {/* Placeholder for Profile Image */}
                 <div className="text-center p-8">
-                  <div className="w-24 h-24 md:w-32 md:h-32 rounded-full bg-gradient-to-tr from-primary to-purple-500 mx-auto mb-4 flex items-center justify-center">
+                  <div className="w-24 h-24 md:w-32 md:h-32 rounded-full bg-gradient-to-tr from-primary to-purple-500 mx-auto flex items-center justify-center">
                     <span className="text-4xl text-white font-bold">AK</span>
                   </div>
-                  <p className="text-gray-500 dark:text-gray-400 font-medium">[Profile Image Placeholder]</p>
                 </div>
             </div>
             
